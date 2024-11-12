@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Interfaces\IProxyRequest.fs" />
     <Compile Include="Manager\ProxyManager.fs" />
     <Compile Include="SocketModules\Requestproxy.fs" />
     <Compile Include="Program.fs" />
